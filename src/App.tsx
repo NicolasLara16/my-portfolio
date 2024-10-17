@@ -1,7 +1,12 @@
+import Home from "./pages/Home/Home.tsx"
+
 const App = () => {
   return(
-    <h1>hello word</h1>
+    <>
+      <Home/>
+    </>
+    
   )
 }
 
-export default App
+export default App;
